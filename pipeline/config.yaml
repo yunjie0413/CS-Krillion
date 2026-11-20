@@ -1,0 +1,74 @@
+# Liquipedia's API terms require a User-Agent naming your project with contact info.
+# To keep your email out of this public file, set it in the environment instead:
+#   export LIQUIPEDIA_USER_AGENT="CS2Krillion-data/0.1 (https://github.com/yunjie0413/CS-Krillion; you@example.com)"
+# The fetcher refuses to run until one of the two has real values.
+user_agent: "CS2Krillion-data/0.1 (https://github.com/yunjie0413/CS-Krillion; YOUR_EMAIL)"
+wiki: counterstrike
+
+api:
+  min_interval_s: 4.0   # seconds between calls (max ~900/hour). Raise it if you see HTTP 429s.
+  max_retries: 5
+  page_size: 1000       # LPDB maximum
+
+era:
+  start: "2012-08-21"         # CS:GO release. For CS2-only answers use "2023-09-27".
+  cs2_release: "2023-09-27"   # used by the "in the CS2 era" prompts
+  # Liquipedia's game ids: cs1, cscz, css, cso, csgo, csgocs2 (events spanning both), cs2.
+  games: [csgo, csgocs2, cs2] # [] = keep all
+
+fetch:
+  tournament_tiers: ["1", "2"]   # Liquipedia tiers: 1 = S-Tier, 2 = A-Tier
+  placement_tiers: ["1", "2"]
+  min_player_earnings: 1000
+  min_team_earnings: 10000
+  # Teams whose full player history is fetched for "Name a player who has played for X".
+  # These are Liquipedia page names; the fetcher warns about any that return nothing.
+  squad_teams:
+    - Natus_Vincere
+    - Astralis
+    - FaZe_Clan
+    - Team_Vitality
+    - G2_Esports
+    - Ninjas_in_Pyjamas
+    - Fnatic
+    - Team_Liquid
+    - MOUZ
+    - Team_Spirit
+    - Heroic
+    - Cloud9
+    - ENCE
+    - Virtus.pro
+    - FURIA
+    - The_MongolZ
+    - Eternal_Fire
+    - BIG
+    - Complexity_Gaming
+    - SK_Gaming
+
+events:
+  # Fix Major detection here if `cskrill profile` shows a miss (Liquipedia page names).
+  majors_include: []
+  majors_exclude: []
+
+prompts:
+  min_answers: 10          # drop prompts with fewer valid answers
+  min_answers_small: 6     # for naturally small sets (host countries, organizers, maps)
+  earnings_threshold: 1000000
+  many_majors: 10
+
+rarity:
+  temperature: 2.0         # pick share ~ (1 + prize money)^T; higher = famous answers dominate
+  recent_years: 3          # recent S-Tier top-4 finishes make a name more familiar
+  recent_weight: 0.4
+  live_prior_strength: 200 # how many real answers the prior is worth once people play
+  tiers:                   # most common first; an answer gets the first tier it reaches
+    - {name: Silver,           points: 10,  min_share: 0.10}
+    - {name: Gold Nova,        points: 25,  min_share: 0.05}
+    - {name: Master Guardian,  points: 40,  min_share: 0.025}
+    - {name: Legendary Eagle,  points: 60,  min_share: 0.01}
+    - {name: Supreme,          points: 80,  min_share: 0.004}
+    - {name: Global Elite,     points: 100, min_share: 0}
+
+matching:
+  accept_real_names: true  # "Oleksandr Kostyliev" counts as s1mple
+  fuzzy: true              # forgive small typos when they point at exactly one name

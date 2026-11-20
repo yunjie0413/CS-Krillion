@@ -1,0 +1,37 @@
+# Extra names people type. Players and teams are keyed by Liquipedia page name;
+# cities, countries, organizers and maps by the label as Liquipedia writes it.
+# Spellings listed under a label are merged into it (e.g. "Dust2" -> "Dust II").
+
+teams:
+  Natus_Vincere: [NaVi, "Na'Vi", NAVI]
+  Ninjas_in_Pyjamas: [NiP]
+  FaZe_Clan: [FaZe]
+  Team_Vitality: [Vitality]
+  G2_Esports: [G2]
+  Team_Liquid: [Liquid, TL]
+  MOUZ: [mousesports]
+  Team_Spirit: [Spirit]
+  Virtus.pro: [VP, Virtus Pro]
+  Complexity_Gaming: [coL, Complexity]
+  The_MongolZ: [MongolZ]
+  Eternal_Fire: [EF]
+  Cloud9: [C9]
+  SK_Gaming: [SK]
+  FURIA: [FURIA Esports]
+
+players: {}
+
+maps:
+  Dust II: [Dust 2, Dust2, D2]
+  Cobblestone: [Cobble, Cbble]
+
+cities:
+  Rio de Janeiro: [Rio]
+
+countries:
+  United States: [USA, US, America]
+  United Kingdom: [UK, England, Britain]
+
+organizers:
+  ESL: [ESL Gaming, ESL FACEIT Group, Intel Extreme Masters, IEM]
+  BLAST: [BLAST.tv, BLAST Premier]
