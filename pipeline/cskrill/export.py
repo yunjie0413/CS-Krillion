@@ -3,7 +3,7 @@
 data/out/
   prompts.json      prompts with answers, prior shares, tiers and points
   entities.json     display names + Liquipedia links for every answer
-  alias_index.json  normalised name -> entity keys, per type (for answer matching)
+  alias_index.json  per type: normalised name -> entity keys, plus display names
   meta.json         build info, tiers, attribution
   report.txt        human-readable summary to sanity-check the build
 """
@@ -103,9 +103,11 @@ def write_outputs(out_dir: Path, ds: Dataset, cfg: Config, result: BuildResult) 
 
     index: dict[str, Any] = {}
     for etype in used_types:
-        exact, leet_keys = build_index(universe(ds, etype, cfg))
+        uni = universe(ds, etype, cfg)
+        exact, leet_keys = build_index(uni)
         index[etype] = {"exact": {k: sorted(v) for k, v in sorted(exact.items())},
-                        "leet": {k: sorted(v) for k, v in sorted(leet_keys.items())}}
+                        "leet": {k: sorted(v) for k, v in sorted(leet_keys.items())},
+                        "names": {k: ds.display(etype, k) for k in sorted(uni)}}
 
     meta = {
         "built_at": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),

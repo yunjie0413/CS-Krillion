@@ -6,7 +6,8 @@ answers score more. It's a free, non-commercial fan project.
 
 - [`pipeline/`](pipeline/README.md) builds the prompts and answer lists from
   Liquipedia data (Python).
-- The game itself is coming next.
+- [`game/`](game/README.md) is the game: a Cloudflare Worker + D1 that checks
+  answers on the server, and a mobile-first page (TypeScript).
 
 Data from [Liquipedia](https://liquipedia.net/counterstrike), licensed
 [CC-BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/). Code: MIT.

@@ -1,0 +1,490 @@
+{
+ "norm": {
+  "Håvard Nygaard": "havardnygaard",
+  "Nikola Kovač": "nikolakovac",
+  "Andreas Højsleth": "andreashojsleth",
+  "Ladislav Kovács": "ladislavkovacs",
+  "huNter-": "hunter",
+  "Na'Vi": "navi",
+  "de_dust2": "dedust2",
+  "ŁUKASZ": "lukasz",
+  "Straße": "strasse",
+  "ẞ": "ss",
+  "İstanbul": "istanbul",
+  "ﬁnal": "final",
+  "Ninjas & Pyjamas": "ninjasandpyjamas",
+  "  s1mple  ": "s1mple",
+  "ZYWOO": "zywoo",
+  "Ærø": "aero",
+  "Þór": "thor",
+  "dev1ce": "dev1ce",
+  "m0NESY": "m0nesy",
+  "n0rb3r7": "n0rb3r7",
+  "910": "910",
+  "7even": "7even",
+  "x": "x",
+  "😀 smile": "smile",
+  "Dust II": "dustii",
+  "Rio de Janeiro": "riodejaneiro"
+ },
+ "leet": {
+  "Håvard Nygaard": "havardnygaard",
+  "Nikola Kovač": "nikolakovac",
+  "Andreas Højsleth": "andreashojsleth",
+  "Ladislav Kovács": "ladislavkovacs",
+  "huNter-": "hunter",
+  "Na'Vi": "navi",
+  "de_dust2": "dedust2",
+  "ŁUKASZ": "lukasz",
+  "Straße": "strasse",
+  "ẞ": "ss",
+  "İstanbul": "istanbul",
+  "ﬁnal": "final",
+  "Ninjas & Pyjamas": "ninjasandpyjamas",
+  "  s1mple  ": "simple",
+  "ZYWOO": "zywoo",
+  "Ærø": "aero",
+  "Þór": "thor",
+  "dev1ce": "device",
+  "m0NESY": "monesy",
+  "n0rb3r7": "norbert",
+  "910": "9io",
+  "7even": "teven",
+  "x": "x",
+  "😀 smile": "smile",
+  "Dust II": "dustii",
+  "Rio de Janeiro": "riodejaneiro"
+ },
+ "lookup": {
+  "player": {
+   "s1mple": {
+    "keys": [
+     "S1mple"
+    ],
+    "fuzzy": false
+   },
+   "simple": {
+    "keys": [
+     "S1mple"
+    ],
+    "fuzzy": false
+   },
+   "S1MPLE": {
+    "keys": [
+     "S1mple"
+    ],
+    "fuzzy": false
+   },
+   "Oleksandr Kostyliev": {
+    "keys": [
+     "S1mple"
+    ],
+    "fuzzy": false
+   },
+   "zywooo": {
+    "keys": [
+     "ZywOo"
+    ],
+    "fuzzy": true
+   },
+   "zyw00": {
+    "keys": [
+     "ZywOo"
+    ],
+    "fuzzy": false
+   },
+   "NiKo": {
+    "keys": [
+     "NiKo"
+    ],
+    "fuzzy": false
+   },
+   "nikoo": {
+    "keys": [
+     "NiKo"
+    ],
+    "fuzzy": true
+   },
+   "device": {
+    "keys": [
+     "Dev1ce"
+    ],
+    "fuzzy": false
+   },
+   "dev1ce": {
+    "keys": [
+     "Dev1ce"
+    ],
+    "fuzzy": false
+   },
+   "dupre": {
+    "keys": [],
+    "fuzzy": false
+   },
+   "dupreh": {
+    "keys": [
+     "Dupreeh"
+    ],
+    "fuzzy": true
+   },
+   "Techno": {
+    "keys": [
+     "Techno4K"
+    ],
+    "fuzzy": false
+   },
+   "techn04k": {
+    "keys": [
+     "Techno4K"
+    ],
+    "fuzzy": false
+   },
+   "910": {
+    "keys": [
+     "910"
+    ],
+    "fuzzy": false
+   },
+   "qwertyuiop": {
+    "keys": [],
+    "fuzzy": false
+   },
+   "ab": {
+    "keys": [],
+    "fuzzy": false
+   },
+   "a": {
+    "keys": [],
+    "fuzzy": false
+   },
+   "karigan": {
+    "keys": [
+     "Karrigan"
+    ],
+    "fuzzy": true
+   },
+   "Håvard Nygaard": {
+    "keys": [
+     "Rain"
+    ],
+    "fuzzy": false
+   },
+   "havard": {
+    "keys": [],
+    "fuzzy": false
+   },
+   "electronic": {
+    "keys": [
+     "ElectroNic"
+    ],
+    "fuzzy": false
+   },
+   "electr0nic": {
+    "keys": [
+     "ElectroNic"
+    ],
+    "fuzzy": false
+   },
+   "jame": {
+    "keys": [
+     "Jame"
+    ],
+    "fuzzy": false
+   },
+   "jamee": {
+    "keys": [
+     "Jame"
+    ],
+    "fuzzy": true
+   },
+   "sh1ro": {
+    "keys": [
+     "Sh1ro"
+    ],
+    "fuzzy": false
+   },
+   "shiro": {
+    "keys": [
+     "Sh1ro"
+    ],
+    "fuzzy": false
+   },
+   "donk": {
+    "keys": [
+     "Donk"
+    ],
+    "fuzzy": false
+   },
+   "donkk": {
+    "keys": [
+     "Donk"
+    ],
+    "fuzzy": true
+   },
+   "monesy": {
+    "keys": [
+     "M0NESY"
+    ],
+    "fuzzy": false
+   },
+   "huNter": {
+    "keys": [
+     "HuNter-"
+    ],
+    "fuzzy": false
+   },
+   "hunter-": {
+    "keys": [
+     "HuNter-"
+    ],
+    "fuzzy": false
+   }
+  },
+  "team": {
+   "navi": {
+    "keys": [
+     "Natus_Vincere"
+    ],
+    "fuzzy": false
+   },
+   "Na'Vi": {
+    "keys": [
+     "Natus_Vincere"
+    ],
+    "fuzzy": false
+   },
+   "natus vincere": {
+    "keys": [
+     "Natus_Vincere"
+    ],
+    "fuzzy": false
+   },
+   "NAVI": {
+    "keys": [
+     "Natus_Vincere"
+    ],
+    "fuzzy": false
+   },
+   "faze": {
+    "keys": [
+     "FaZe_Clan"
+    ],
+    "fuzzy": false
+   },
+   "FaZe Clan": {
+    "keys": [
+     "FaZe_Clan"
+    ],
+    "fuzzy": false
+   },
+   "vitality": {
+    "keys": [
+     "Team_Vitality"
+    ],
+    "fuzzy": false
+   },
+   "team vitality": {
+    "keys": [
+     "Team_Vitality"
+    ],
+    "fuzzy": false
+   },
+   "spirit": {
+    "keys": [
+     "Team_Spirit"
+    ],
+    "fuzzy": false
+   },
+   "mongolz": {
+    "keys": [
+     "The_MongolZ"
+    ],
+    "fuzzy": false
+   },
+   "the mongolz": {
+    "keys": [
+     "The_MongolZ"
+    ],
+    "fuzzy": false
+   },
+   "astralis": {
+    "keys": [
+     "Astralis"
+    ],
+    "fuzzy": false
+   },
+   "astrlis": {
+    "keys": [
+     "Astralis"
+    ],
+    "fuzzy": true
+   },
+   "g2": {
+    "keys": [
+     "G2_Esports"
+    ],
+    "fuzzy": false
+   },
+   "G2 Esports": {
+    "keys": [
+     "G2_Esports"
+    ],
+    "fuzzy": false
+   },
+   "cloud 9": {
+    "keys": [
+     "Cloud9"
+    ],
+    "fuzzy": false
+   },
+   "c9": {
+    "keys": [
+     "Cloud9"
+    ],
+    "fuzzy": false
+   },
+   "heroic": {
+    "keys": [
+     "Heroic"
+    ],
+    "fuzzy": false
+   },
+   "outsiders": {
+    "keys": [
+     "Outsiders"
+    ],
+    "fuzzy": false
+   },
+   "ence": {
+    "keys": [
+     "ENCE"
+    ],
+    "fuzzy": false
+   },
+   "nip": {
+    "keys": [],
+    "fuzzy": false
+   }
+  },
+  "city": {
+   "rio": {
+    "keys": [
+     "Rio_de_Janeiro"
+    ],
+    "fuzzy": false
+   },
+   "Rio de Janeiro": {
+    "keys": [
+     "Rio_de_Janeiro"
+    ],
+    "fuzzy": false
+   },
+   "katowice": {
+    "keys": [
+     "Katowice"
+    ],
+    "fuzzy": false
+   },
+   "katowic": {
+    "keys": [
+     "Katowice"
+    ],
+    "fuzzy": true
+   },
+   "cologne": {
+    "keys": [],
+    "fuzzy": false
+   },
+   "copenhagen": {
+    "keys": [
+     "Copenhagen"
+    ],
+    "fuzzy": false
+   },
+   "kopenhagen": {
+    "keys": [
+     "Copenhagen"
+    ],
+    "fuzzy": true
+   },
+   "austin": {
+    "keys": [
+     "Austin"
+    ],
+    "fuzzy": false
+   }
+  },
+  "map": {
+   "dust2": {
+    "keys": [
+     "Dust_II"
+    ],
+    "fuzzy": false
+   },
+   "Dust II": {
+    "keys": [
+     "Dust_II"
+    ],
+    "fuzzy": false
+   },
+   "d2": {
+    "keys": [
+     "Dust_II"
+    ],
+    "fuzzy": false
+   },
+   "de_dust2": {
+    "keys": [],
+    "fuzzy": false
+   },
+   "inferno": {
+    "keys": [
+     "Inferno"
+    ],
+    "fuzzy": false
+   },
+   "infern0": {
+    "keys": [
+     "Inferno"
+    ],
+    "fuzzy": false
+   },
+   "cobble": {
+    "keys": [
+     "Cobblestone"
+    ],
+    "fuzzy": false
+   },
+   "cbble": {
+    "keys": [
+     "Cobblestone"
+    ],
+    "fuzzy": false
+   },
+   "mirage": {
+    "keys": [
+     "Mirage"
+    ],
+    "fuzzy": false
+   },
+   "nuke": {
+    "keys": [
+     "Nuke"
+    ],
+    "fuzzy": false
+   },
+   "train": {
+    "keys": [
+     "Train"
+    ],
+    "fuzzy": false
+   },
+   "anubis": {
+    "keys": [
+     "Anubis"
+    ],
+    "fuzzy": false
+   }
+  }
+ }
+}

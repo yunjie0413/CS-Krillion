@@ -1,4 +1,4 @@
-data/
+pipeline/data/
 .env
 __pycache__/
 *.egg-info/

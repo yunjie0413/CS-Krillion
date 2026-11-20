@@ -105,6 +105,7 @@ def test_write_outputs_and_cli_check(tmp_path, sample_build, capsys):
     assert "Liquipedia" in meta["attribution"] and "CC-BY-SA" in meta["attribution"]
     index = json.loads((out / "alias_index.json").read_text())
     assert index["player"]["leet"]["simple"] == ["S1mple"]
+    assert index["player"]["names"]["NiKo"] == "NiKo"  # non-answers too, for "real but wrong"
     entities = json.loads((out / "entities.json").read_text())
     assert entities["player"]["S1mple"]["url"].endswith("/counterstrike/S1mple")
 
