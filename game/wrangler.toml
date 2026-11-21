@@ -10,4 +10,4 @@ binding = "ASSETS"
 binding = "DB"
 database_name = "cs-krillion"
 # Replace with the id printed by `npx wrangler d1 create cs-krillion` before deploying.
-database_id = "00000000-0000-0000-0000-000000000000"
+database_id = "a968df95-e414-4ce0-9881-38fdaa110ac0"
